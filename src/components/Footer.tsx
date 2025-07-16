@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Facebook, Twitter, Instagram, Linkedin } from "lucide-react";
+import { Instagram, Video } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -21,17 +21,11 @@ const Footer = () => {
           </div>
           
           <div className="flex space-x-4 mb-6 md:mb-0">
-            <a href="#" className="text-primary-foreground hover:text-accent transition-colors">
-              <Facebook className="h-6 w-6" />
-            </a>
-            <a href="#" className="text-primary-foreground hover:text-accent transition-colors">
-              <Twitter className="h-6 w-6" />
-            </a>
-            <a href="#" className="text-primary-foreground hover:text-accent transition-colors">
+            <a href="https://www.instagram.com/collabmed_/" target="_blank" rel="noopener noreferrer" className="text-primary-foreground hover:text-accent transition-colors">
               <Instagram className="h-6 w-6" />
             </a>
-            <a href="#" className="text-primary-foreground hover:text-accent transition-colors">
-              <Linkedin className="h-6 w-6" />
+            <a href="https://www.tiktok.com/@collabmed_" target="_blank" rel="noopener noreferrer" className="text-primary-foreground hover:text-accent transition-colors">
+              <Video className="h-6 w-6" />
             </a>
           </div>
         </div>

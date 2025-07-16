@@ -6,16 +6,16 @@ import Footer from "@/components/Footer";
 
 const Volunteer = () => {
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-background page-transition">
       <Navbar />
       
       {/* Header Section */}
       <section className="bg-secondary py-20">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold text-primary mb-8">
+          <h1 className="text-4xl md:text-5xl font-bold text-primary mb-8 animate-fade-in">
             Apply to Volunteer with CollabMed
           </h1>
-          <p className="text-xl text-primary/80 max-w-3xl mx-auto mb-12">
+          <p className="text-xl text-primary/80 max-w-3xl mx-auto mb-12 animate-fade-in">
             Help us grow our community and impact by contributing to marketing, outreach, fundraising, or program development.
           </p>
           

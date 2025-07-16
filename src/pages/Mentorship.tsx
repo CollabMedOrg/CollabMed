@@ -6,16 +6,16 @@ import Footer from "@/components/Footer";
 
 const Mentorship = () => {
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-background page-transition">
       <Navbar />
       
       {/* Header Section */}
       <section className="bg-secondary py-20">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold text-primary mb-8">
+          <h1 className="text-4xl md:text-5xl font-bold text-primary mb-8 animate-fade-in">
             Sign Up for 1-on-1 Mentorship
           </h1>
-          <p className="text-xl text-primary/80 max-w-3xl mx-auto mb-12">
+          <p className="text-xl text-primary/80 max-w-3xl mx-auto mb-12 animate-fade-in">
             Join our community of future healthcare professionals. We'll pair you with a mentor at the next stage of your journey.
           </p>
           
